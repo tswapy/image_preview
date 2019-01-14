@@ -1,0 +1,41 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  background: #eee;
+}
+main{
+  padding-top: 100px;
+}
+h1{
+  font-size: 40px;
+  text-align: center;
+  margin-top: 50px;
+}
+.form-group{
+  width: 25%;
+  text-align: center;
+  float: left;
+  position: relative;
+  min-height: 1px;
+}
+.image-preview{
+  padding: 10px;
+}
+input{
+  padding: 10px 20px;
+  margin: 20px 0;
+  background: #fb4;
+  border: 1px solid #fb4;
+  cursor: pointer;
+}
+.form-group img{
+  max-width: 75%;
+  border: 5px solid #fff;
+}
+label{
+  font-size: 20px;
+  margin: 20px 0;
+}
